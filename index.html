@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netadea Aprina's Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #5a5a5a;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #5a5a5a;
+        }
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        h1, h2 {
+            color: #5a5a5a;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #5a5a5a;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 0.5em;
+            border: none;
+            border-radius: 4px;
+            background-color: #5a5a5a;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Netadea Aprina's Blog</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! My name is Netadea Aprina. I'm a mom to a wonderful toddler and a financial enthusiast. Through this blog, I share my experiences as a mother and provide tips and tricks on financial matters. Join me on this journey of motherhood and financial wisdom!</p>
+        </section>
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Welcome to my blog! Here, you'll find various posts about my life as a mom and valuable financial advice. Stay tuned for updates!</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Netadea Aprina. All rights reserved.</p>
+    </footer>
+</body>
+</html>
